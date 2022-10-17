@@ -1,6 +1,7 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 /* Default */
+
 *{
     margin: 0;
     padding: 0;
@@ -81,11 +82,11 @@ body{
     left: 0;
 }
 
-.navbar-link{
+.navbar-link{ /* navbar titles */
     font-size: 1.5rem;
     font-weight: 500;
     margin:  2rem 0;
-    color: #777;
+    color: rgb(233, 128, 41);
     letter-spacing: 0.3rem;
     text-transform: uppercase;
     transition: color 0.3s;
@@ -95,7 +96,7 @@ body{
     color: #111;
 }
 
-/* Section */
+/* Home Section */
 
 .wrapper{
     width: 100%;
@@ -120,8 +121,8 @@ section.change{
     transform: rotateY(11.5deg);
 }
 
-.section-heading{
-    font-size: 10px;
+.section-heading{ /* section title */
+    font-size: 10rem;
     font-weight: bolder;
     color: rgb(233, 128, 41);
     margin-bottom: 10rem;
@@ -129,3 +130,17 @@ section.change{
     text-align: center;
     text-shadow: 0.3rem 0.3rem 0.5rem rgb(114, 113, 113);
 }
+
+.section-1{ /* home section background img */
+    flex-direction: column;
+    background: url(Image/Classic_Navy.jpg.png);
+    background-size: cover;
+}
+
+.section-1 .section-1-heading{
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-shadow: 1rem 1rem 1rem rgb(86, 43, 2), 2rem 2rem 2rem #000, 3rem 3rem 3rem #222;
+}
+
+/* Popular-Car Section */
