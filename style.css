@@ -329,3 +329,62 @@ section.change{
 }
 
 /* Contact Form */
+
+.section-5{
+    background: url(Image/bg2.png) center no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.contact-form{
+    width: 60rem;
+    height: 45rem;
+    background-color: rgba(149, 143, 143, 0.2);
+    border: 1rem solid rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    height: 4rem;
+    margin: 2rem 0;
+    background-color: transparent;
+    padding: 0.5rem;
+    border: 0.1rem solid rgb(19, 18, 18);
+    letter-spacing: 0.1rem;
+    color: rgb(22, 22, 22);
+    flex-shrink: 0;
+    transition: background-color 0.5s;
+}
+
+.contact-form textarea{
+    max-width: 100%;
+    min-height: 8rem;
+}
+
+.form-input:focus{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-form .form-btn{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+    color: #444;
+    cursor: pointer;
+}
+
+.copyright{
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(237, 159, 49);
+    text-align: center;
+}
